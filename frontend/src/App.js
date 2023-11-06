@@ -15,9 +15,7 @@ function App() {
 
       const theme = extendTheme({styles})
   return (
-    <ChakraProvider theme={theme}>
       <Rotas/>
-    </ChakraProvider>
   );
 }
 
